@@ -1,7 +1,7 @@
-## Coding Exercises
+# Coding Exercises
 <!--- based on http://www.cs.cornell.edu/courses/cs1112/2017sp/#templates/exercises -->
 
-### Part I: User input and looping
+## Part I: User input and looping
 #### Hello
 Create a file `Hello.java` such that running `javac Hello.java && java Hello` prints
 ```Hello world!```.
