@@ -105,8 +105,9 @@ double y = 2.0 * java.util.Random() - 1.0;
 Print the random coordinates.
 Print "INSIDE" if the point (x,y) is inside the circle, and "OUTSIDE" otherwise.
 (Recall that the inside of the circle is the set of points (a,b) such that `a^2 + b^2 <= 1`.)
+
+### Part III: TODO
 -->
 
 
 
-### Part III: TODO
