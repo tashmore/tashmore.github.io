@@ -12,7 +12,7 @@ $ javac Hello.java && java Hello
 What is your name? asdfasdf
 Hello asdfasdf!
 ```
-(Hint: check out https://stackoverflow.com/questions/5287538/how-can-i-get-the-user-input-in-java . You can use `System.out.print()` to print text that does not end in a new line. )
+(Hint: check out [https://stackoverflow.com/questions/5287538/how-can-i-get-the-user-input-in-java](this StackOverflow question) . You can use `System.out.print()` to print text that does not end in a new line. )
 #### Temperature conversion
 Write a program `CtoF.java` that prompts a user for a temperature in Celsius and converts it to Fahrenheit.
 (Recall that `degreeF = (9/5)*degreeC + 32`.)
