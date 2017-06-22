@@ -1,1 +1,1 @@
-### [Coding exercises](./coding_exercises.html)
+### [Coding Exercises](./coding_exercises.html)
