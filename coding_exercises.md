@@ -2,10 +2,13 @@
 <!--- based on http://www.cs.cornell.edu/courses/cs1112/2017sp/#templates/exercises -->
 
 ## Part I: User input and looping
-#### Hello
+#### 1. Hello
 Create a file `Hello.java` such that running `javac Hello.java && java Hello` prints
 ```Hello world!```.
-#### Hello by name
+
+
+
+#### 2. Hello by name
 Modify `Hello.java` to prompt the user for their name, and greets them as follows:
 ```
 $ javac Hello.java && java Hello
@@ -13,7 +16,10 @@ What is your name? asdfasdf
 Hello asdfasdf!
 ```
 (Hint: check out [this StackOverflow question](https://stackoverflow.com/questions/5287538/how-can-i-get-the-user-input-in-java). You can use `System.out.print()` to print text that does not end in a new line. )
-#### Temperature conversion
+
+
+
+#### 3. Temperature conversion
 Write a program `CtoF.java` that prompts a user for a temperature in Celsius and converts it to Fahrenheit.
 (Recall that `degreeF = (9/5)*degreeC + 32`.)
 For example, if the user enters 30, the output should look like:
@@ -23,7 +29,10 @@ Enter a temperature in Celsius: 30
 That's 86.0 degrees Fahrenheit!
 ```
 Warning: Unintended [integer division](https://stackoverflow.com/questions/2909451/simple-division-in-java-is-this-a-bug-or-a-feature) may cause your program to print the wrong output!
-#### Temperature conversion -- forever!
+
+
+
+#### 4. Temperature conversion -- forever!
 Add a while loop to `CtoF.java` to continue prompting the user forever.
 (Now the user must type Control+C to quit the program!)
 ```
@@ -37,7 +46,9 @@ That's 68.0 degrees Fahrenheit!
 Enter a temperature in Celsius: ^C
 ```
 
-#### Snake
+
+
+#### 5. Snake
 Write a program `Snake.java` that asks a user for a number `n`, then prints a snake with `n` segments:
 ```
 $ javac Snake.java&& java Snake
@@ -49,7 +60,9 @@ How many segments would you like your snake? 25
 ```
 Hint: Use a `for` loop!
 
-#### Diamond (tricky)
+
+
+#### 6. Diamond (tricky)
 Write a program `Diamond.java` that prompts the user for a side length.
 It then prints spaces and `*` characters to create a diamond that size:
 ```
